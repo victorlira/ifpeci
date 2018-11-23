@@ -12,7 +12,7 @@ public class TestCalculadora {
 	public void testSomar() {
 		assertEquals(45, Calculadora.somar(39,  6));
 		assertEquals(14, Calculadora.somar(1,  13));
-		assertEquals(0, Calculadora.somar(20,  8));
+		assertEquals(28, Calculadora.somar(20,  8));
 	}
 
 }
