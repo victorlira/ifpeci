@@ -15,4 +15,10 @@ public class TestCalculadora {
 		assertEquals(28, Calculadora.somar(20,  8));
 	}
 
+	@Test
+	public void testSubtrair() {
+		assertEquals(0, Calculadora.subtrair(8,  8));
+		assertEquals(33, Calculadora.subtrair(39,  6));
+		
+	}
 }
