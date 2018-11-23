@@ -7,6 +7,6 @@ public class Calculadora {
 	}
 	
 	public static int subtrair(int n1, int n2) {
-		return n2 - n1;
+		return n1 - n2;
 	}
 }
